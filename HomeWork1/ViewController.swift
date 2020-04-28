@@ -14,7 +14,6 @@ class ViewController: UIViewController {
         case red
         case yellow
         case green
-        
     }
    
     
@@ -32,10 +31,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         
+        // Add start value for view`s alpha
         
         view1.alpha = lightOff
         view2.alpha = lightOff
         view3.alpha = lightOff
+        
+        // Sets the fillet radius of the View.
         
         view1.layer.cornerRadius = view1.frame.height / 2
         view2.layer.cornerRadius = view2.frame.height / 2
